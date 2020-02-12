@@ -125,7 +125,7 @@ class Student
            SQL
 
       DB[:conn].execute(sql,x).map do |row|
-      
+
       end
 
 

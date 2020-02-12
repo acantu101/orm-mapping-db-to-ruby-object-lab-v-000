@@ -124,7 +124,7 @@ class Student
       WHERE grade = ?
            SQL
 
-      DB[:conn].execute(sql)
+      DB[:conn].execute(sql,x)
       end
 
 
